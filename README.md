@@ -1,4 +1,3 @@
-###### tags: `Java`
 # JDK8~19 有用的新特性
 JDK8~19 新增了不少新特性，例如：
 -   Java Record
@@ -6,8 +5,6 @@ JDK8~19 新增了不少新特性，例如：
 -   Text Block 文本塊
 -   var 聲明局部變量
 -   sealed 密封類
-
-==程式碼：[**github**](https://github.com/yujun0/java-new-feature.git)==
 ## Record
 Java 14 中預覽的新特性叫做Recoed，在 Java 中，Record是一種特殊類型的 Java 類，可用來創建不可變class，語法簡短。參考 [JEP 395: Records (openjdk.org)](https://openjdk.org/jeps/395)，Jackson 2.12 支持Record類。
 
@@ -393,8 +390,10 @@ Text Block 要求：
 -   Text Block 中的縮進會自動去除，左側和右側的
 -   要保留左側的縮進、空格
     -   將Text Block 的內容向左移動(tab 鍵) 
+    
     ![](https://i.imgur.com/XEv48I1.gif)
     -   使用indent()
+    
     ```java
     String color = """
                     red
